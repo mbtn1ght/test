@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hallo World!")
-	fmt.Println("I am gay")
-	fmt.Println("My name is Igor!")
+	fmt.Println("Count with me!")
+
+	for i := 3; i >= 0; i-- {
+		fmt.Printf("%d\n", i)
+	}
 }
